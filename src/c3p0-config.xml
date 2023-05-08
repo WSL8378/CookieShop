@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 默认配置，只可以出现一次 -->
+	<default-config>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/cakes?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;zeroDateTimeBehavior=convertToNull</property>
+		<property name="user">root</property>
+		<property name="password">123456</property>
+		<property name="initialPoolSize">10</property>
+		<property name="maxIdleTime">3600</property>
+		<property name="maxPoolSize">20</property>
+		<property name="minPoolSize">10</property>
+	</default-config>
+</c3p0-config>
